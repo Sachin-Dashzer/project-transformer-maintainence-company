@@ -369,14 +369,14 @@ header {
 
 .heroBanner {
   width: 100%;
-  height: 700px;
+  height: 660px;
   position: relative;
 }
 
 .headerMenu li a {
   font-weight: 700;
-  font-size: 18px;
-  margin: 0 15px;
+  font-size: 17px;
+  margin-left: 30px;
   color: #fff;
 }
 
@@ -384,7 +384,7 @@ header {
 
 video {
   width: 100%;
-  height: 710px;
+  height: 670px;
   object-fit: cover;
   z-index: -1;
 }
@@ -409,8 +409,8 @@ video {
 
 .social-links {
   position: absolute;
-  right: 6%;
-  top: 36%;
+  right: 2.7%;
+  top: 37%;
   display: flex;
   flex-direction: column;
   color: #000000;
@@ -419,9 +419,9 @@ video {
 }
 
 .banner-icons {
-  width: 38px;
-  height: 38px;
-  background-color: rgb(255, 255, 255);
+  width: 32px;
+  height: 32px;
+  background-color: var(--primary-color);
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: center;
@@ -434,11 +434,11 @@ video {
 .social-links::before {
   content: '';
   height: 130px;
-  width: 2px;
-  background-color: white;
+  width: 1px;
+  background-color: var(--primary-color);
   position: absolute;
   left: 50%;
-  top: 105%;
+  top: 110%;
 }
 
 .social-links::before {
@@ -528,8 +528,12 @@ video {
 
 
 .form-container {
-  background-color: #f7fafc;
-  padding: 50px;
+  background-color: #ffffff1a;
+  backdrop-filter: blur(4px);
+  color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 550px;
 }
 
 .form-heading {
@@ -743,12 +747,6 @@ textarea {
 
 
 
-
-
-
-
-
-
 .lineBorder {
   padding-left: 100px;
   position: relative;
@@ -851,7 +849,7 @@ textarea {
 .projectNameHome .small_heading{
   font-size: 19px;
 }
-.projectSlider .slick-arrow {
+.slick-arrow {
   width: 45px !important;
   height: 45px !important;
   border-radius: 50%;
@@ -859,24 +857,142 @@ textarea {
   z-index: 2 !important;
   border: 1px solid #bbb !important;
 }
-.projectSlider .slick-arrow i {
+.slick-arrow i {
   color: #333;
   font-size: 17px !important;
 }
-.projectSlider .slick-next:before,
-.projectSlider .slick-prev:before {
+.slick-next:before,
+.slick-prev:before {
   display: none;
 }
-.projectSlider .slick-next {
+.slick-next {
   right: 2% !important;
 }
-.projectSlider .slick-prev {
+.slick-prev {
   left: 90% !important;
 }
-.projectSlider .slick-next,
-.projectSlider .slick-prev {
+.slick-next,
+.slick-prev {
   top: -20% !important;
 }
-.projectSlider .slick-arrow:hover {
+.slick-arrow:hover {
   background: var(--secondary-color) !important;
+}
+
+
+
+.testimonial-slider .slick-next , .testimonial-slider .slick-prev{
+
+  top: 52% !important;
+}
+
+.testimonial-slider .slick-next {
+  right: -2.1% !important;
+}
+.testimonial-slider .slick-prev {
+  left: -2.1% !important;
+}
+.testimonial-slider .slick-arrow {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: white !important;
+}
+
+.testimonial-slider .slick-arrow i {
+  color: #3333335e;
+  font-size: 26px !important;
+}
+
+
+
+.services{
+  position: relative;
+  margin-top: -50px;
+  z-index: 9;
+}
+
+.serviceBox{
+  padding: 30px 15px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  /* backdrop-filter: blur(10px); */
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.serviceBox:hover{
+    transform: scale(1.1);
+}
+.serviceBox .service_img{
+ width: 60px;
+ height: 60px;
+ 
+ margin: 10px auto;
+
+}
+.serviceBox .service_img img{
+  width: 100%;
+  height: 100%;object-fit: cover;
+}
+.serviceBox .title{
+  font-size: 18px;
+  margin-top: 15px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  
+}
+
+.callus-box .btnTheme{
+  width: 200px ;
+}
+.callus-box{
+  background-color: var(--secondary-color);
+  color: white;
+}
+.shortBanner{
+  height: 400px;
+  padding-top: 50px;
+  color: white;
+}
+.shortBanner .large_heading{
+  font-size: 50px;
+}
+
+.contact-form , .shortBanner{
+  background-image: url(../images/contact-bg.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-color: #000000af;
+  background-blend-mode: multiply;
+}
+
+.contact_bar{
+  height: 100%;
+  width: 450px;
+  background-color: var(--primary-color);
+  margin-right: 50px;
+  margin-left: 18px;
+  padding: 0;
+}
+
+.contact-details{
+  margin-top: 10px;
+}
+.contact-details ul li a{
+  color: #000;
+}
+.contact-details ul li{
+  padding: 15px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.contact-section {
+  height: 650px;
+}
+.contact-smallbox .iconbox{
+  margin-top: -8px;
+}
+
+.newFooter a , .copyRight a{
+  color: white;
 }
