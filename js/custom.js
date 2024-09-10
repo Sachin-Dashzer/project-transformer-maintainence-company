@@ -291,24 +291,24 @@ $(".testimonialSlider").slick({
   ],
 });
 
-$(".gimgSlider").slick({
+$(".projectSlider").slick({
   dots: false,
   infinite: true,
   speed: 500,
   autoplay: true,
   autoplaySpeed: 2000,
-  arrows: false,
+  arrows: true,
   prevArrow:
     "<button type='button' class='slick-prev pull-left'><i class='bi bi-chevron-left'></i></button>",
   nextArrow:
     "<button type='button' class='slick-next pull-right'><i class='bi bi-chevron-right'></i></button>",
   slidesToScroll: 1,
-  slidesToShow: 1,
+  slidesToShow: 4,
   responsive: [
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 4,
         slidesToScroll: 1,
         infinite: true,
         dots: true,
@@ -333,7 +333,7 @@ $(".gimgSlider").slick({
   ],
 });
 
-$(".m2mBoxSlider").slick({
+$(".testimonial-slider").slick({
   dots: false,
   infinite: true,
   speed: 500,
@@ -345,12 +345,12 @@ $(".m2mBoxSlider").slick({
   nextArrow:
     "<button type='button' class='slick-next pull-right'><i class='bi bi-chevron-right'></i></button>",
   slidesToScroll: 1,
-  slidesToShow: 5,
+  slidesToShow: 3,
   responsive: [
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 5,
+        slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
         dots: true,
@@ -359,14 +359,14 @@ $(".m2mBoxSlider").slick({
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
       },
     },
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         dots: false,
         arrows: false,

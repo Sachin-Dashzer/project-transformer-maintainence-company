@@ -1,8 +1,8 @@
 <header class="header stricky">
 
-	<div class="containerFull">
+	<div class="containerFull h-100">
 
-		<div class="mainMenu d-flex justify-content-between align-items-center">
+		<div class="mainMenu h-100 d-flex justify-content-between align-items-center">
 
 			<div class="leftLogo">
 				<h1 class="sub_heading text-primary font-heading">RS Enterprises</h1>
