@@ -514,116 +514,6 @@ membtn.forEach((item, i) => {
   });
 });
 
-const dmemberbtn = document.querySelectorAll(".topBtnsBox ul li a");
-const dmember = document.querySelectorAll(".bottomMembersBox .member");
-const dmemberName = document.querySelectorAll(".bottomMembersBox .member .dMemberName");
-const dmemberNo = document.querySelectorAll(".bottomMembersBox .member .tableNo");
-
-dmemberbtn.forEach((item, i) => {
-
-
-
-
-  dmemberNo.forEach((item , i)=>{
-
-    item.innerText = i+1;
-
-
-  })
-
-
-
-
-
-// this function run whenever the a-z btn is clicked
-  item.addEventListener("click", () => {
-    let num = 1;
-
-    // this fuction is to show which a-z btn is clicked or active
-    document.querySelector(".topBtnsBox ul .activetopBtn").classList.remove("activetopBtn");
-    item.classList.add("activetopBtn");
-
-
-    // this fuction runs whenever any btn is clicked 
-    dmember.forEach((item) => {
-      item.style.display = "none";
-    });
-
-    // this variable is used to define either we have any data or not
-    let data = false;
-
-
-
-    // IF The all btn is clicked
-    if (item.innerText == "All") {
-      dmember.forEach((item) => {
-        item.style.display = "table-row";
-      });
-
-
-
-
-
-      dmemberNo.forEach((item , i)=>{
-
-        item.innerText = i+1;
-    
-
-    
-      })
-
-
-      document.querySelector(".bottomMembersBox .notFound").style.display =
-        "none";
-      data = true;
-    } 
-    
-    
-    
-    // its clecked whether there is data matching that keyword or not
-    else {
-      dmemberName.forEach((iteme, i) => {
-        if (iteme.innerText[0] == item.innerText) {
-          dmember[i].style.display = "table-row";
-          dmemberNo[i].innerText = num;
-          num++;
-
-
-
-          document.querySelector(".bottomMembersBox .notFound").style.display =
-            "none";
-
-          data = true;
-        }
-      });
-    }
-
-
-
-
-
-
-    // if there isn't any data found
-    if (data == false) {
-      document.querySelector(".bottomMembersBox .notFound").style.display =
-        "table-row";
-    }
-
-
-
-
-    
-
-
-  });
-
-
-});
-
-
-
-
-
 document.querySelectorAll('.newNavDrop').forEach((item , i)=>{
 
 
@@ -632,6 +522,40 @@ document.querySelectorAll('.newNavDrop').forEach((item , i)=>{
           document.querySelectorAll(".newNavBox")[i].classList.toggle("activeSidebarNew");
 
 
+    })
+
+
+})
+document.querySelectorAll('.projectTabHomes ul li').forEach((item , i)=>{
+
+
+    item.addEventListener("click" , ()=>{
+      
+      document.querySelector(".projectTabHomes ul li.active").classList.remove("active");
+      item.classList.toggle("active");
+      
+      document.querySelector(".activetable").classList.remove("activetable");
+
+
+
+      document.querySelectorAll(".itemContent")[i].classList.toggle("activetable");
+    })
+
+
+})
+document.querySelectorAll('.projectTabHomes2 ul li').forEach((item , i)=>{
+
+
+    item.addEventListener("click" , ()=>{
+      
+      document.querySelector(".projectTabHomes2 ul li.active").classList.remove("active");
+      item.classList.toggle("active");
+      
+      document.querySelector(".activetable").classList.remove("activetable");
+
+
+
+      document.querySelectorAll(".itemContent2")[i].classList.toggle("activetable");
     })
 
 

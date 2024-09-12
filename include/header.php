@@ -10,10 +10,10 @@
 			<div class="rightMenu">
 				<ul class="headerMenu d-flex justify-content-end align-bottom">
 					<li><a href="index.php">Home</a></li>
-					<li><a href="about-us.php">About us</a></li>
+					<li><a href="about.php">About us</a></li>
 					<li><a href="ht-transformer-maintenance.php">HT Transformer Maintenance</a></li>
 					<li><a href="electrical-contracting.php">Electrical Contracting</a></li>
-					<li><a href="our-clientele.php">Our Clientele</a></li>
+					<li><a href="our-clients.php">Our Clientele</a></li>
 					<li><a href="contact-us.php">Contact us</a></li>
 				</ul>
 			</div>
