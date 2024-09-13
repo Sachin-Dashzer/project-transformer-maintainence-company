@@ -14,7 +14,7 @@
 					<li><a href="ht-transformer-maintenance.php">HT Transformer Maintenance</a></li>
 					<li><a href="electrical-contracting.php">Electrical Contracting</a></li>
 					<li><a href="our-clients.php">Our Clientele</a></li>
-					<li><a href="contact-us.php">Contact us</a></li>
+					<li><a href="contact.php">Contact us</a></li>
 				</ul>
 			</div>
 			

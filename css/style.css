@@ -1181,3 +1181,79 @@ td {
 .aboutLeft .title{
   font-size: 18px !important;
 }
+
+.contact-details .icon-lg{
+  width: 80px;
+  margin: 0 auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  border-radius: 100%;
+  font-size: 27px;
+}
+
+.contact-details h5{
+  font-size: 24px;
+  font-weight: bolder;
+  color: var(--secondary-color);
+}
+.contact-details p{
+  font-size: 15px;
+  margin-top: 10px;
+}
+.contact-details a{
+  
+  color: #000000;
+}
+
+.bgTower{
+  /* height: 100%; */
+  width: 100%;
+  opacity: 0.2;
+  position: absolute;
+  z-index: -2;
+  top: -50px;
+  left: 0px;
+}
+
+.newClients{
+  height: fit-content;
+}
+
+.newClients ul li{
+ 
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: bold;
+  color: var(--secondary-color);
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.newClients ul li:hover{
+  transform: translateX(5px);
+  color: var(--light-black-color);
+}
+
+
+.newClients{
+  background: url(../images/bg-tower.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+

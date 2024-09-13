@@ -560,3 +560,77 @@ document.querySelectorAll('.projectTabHomes2 ul li').forEach((item , i)=>{
 
 
 })
+
+
+
+let tableList = document.querySelectorAll(".tableList tr");
+let tableList2 = document.querySelectorAll(".tableList2 tr");
+let tabledata = 10;
+let tableflag1 = false;
+let tableflag2 = false;
+
+for(let i = tabledata; i < tableList.length; i++){
+
+  tableList[i].style.display = "none";
+
+}
+
+document.querySelectorAll(".tableExpand").forEach((item, i)=>{
+
+  item.addEventListener("click" , ()=>{
+
+    if(tableflag1 == false){
+
+      for(let i = tabledata; i < tableList.length; i++){
+        tableList[i].style.display = "none";      
+      }
+      
+      tableflag1 = true;
+      item.innerHTML = "<span>Show More</span>";
+
+    }else{
+      
+    for(let i = tabledata; i < tableList.length; i++){
+      tableList[i].style.display = "table-row";
+    }
+
+      tableflag1 = false;
+      item.innerHTML = "<span>Show Less</span>";
+    }
+   
+  })
+
+})
+
+for(let i = tabledata; i < tableList2.length; i++){
+
+  tableList2[i].style.display = "none";
+
+}
+
+document.querySelectorAll(".tableExpand2").forEach((item, i)=>{
+
+  item.addEventListener("click" , ()=>{
+    if(tableflag2 == false){
+
+      for(let i = tabledata; i < tableList2.length; i++){
+        tableList2[i].style.display = "none";      
+      }
+      
+      tableflag2 = true;
+      item.innerHTML = "<span>Show More</span>";
+
+    }else{
+      
+    for(let i = tabledata; i < tableList2.length; i++){
+      tableList2[i].style.display = "table-row";
+    }
+
+      tableflag2 = false;
+      item.innerHTML = "<span>Show Less</span>";
+    }
+   
+
+  })
+
+})

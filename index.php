@@ -51,7 +51,6 @@
       </div>
 
 
-
       <div class="services">
          <div class="containerFull">
 
@@ -112,8 +111,6 @@
       </div>
 
 
-
-
       <section class="pb-5">
          <div class="containerFull">
             <div class="row">
@@ -134,7 +131,7 @@
                      <p class="title mt-2"> The company has good competence and capability in executing mass electrical projects.
 
                      </p>
-                     <div class="row g-5 pt-5">
+                     <div class="row g-4 pt-4">
                         <div class="col-md-6">
                            <ul class="mb-3">
                               <li class="d-flex mb-3">
@@ -229,7 +226,6 @@
       </section>
 
 
-
       <div class="container-fluid">
          <div class="row">
 
@@ -313,8 +309,6 @@
       </div>
 
 
-
-
       <div class="callus-box">
          <div class="containerFull row py-5 align-items-center">
             <div class="col-xl-5 col-md-7">
@@ -329,9 +323,6 @@
             </div>
          </div>
       </div>
-
-
-
 
 
       <section>
@@ -377,27 +368,6 @@
 
          </div>
       </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
       <div class="contact-form">
@@ -494,14 +464,6 @@
       </div>
 
 
-
-
-
-
-
-
-
-
       <section>
          <div class="containerFull text-center">
             <h2 class="large_heading font-heading fontweight700 my-4">Partners</h2>
@@ -546,18 +508,6 @@
 
          </div>
       </section>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

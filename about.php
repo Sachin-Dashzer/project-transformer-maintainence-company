@@ -51,9 +51,9 @@
                             <p class="title mt-2"> The company has good competence and capability in executing mass electrical projects.
 
                             </p>
-                            <div class="row g-5 mt-2">
+                            <div class="row g-4 mt-1">
                                 <div class="col-md-6">
-                                    <ul class="mb-3">
+                                    <ul>
                                         <li class="d-flex mb-3">
                                             <span>
                                                 <svg xmlns="http://www.w3.org/2000/svg"
@@ -176,7 +176,7 @@
                                     <th>Location</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody class="tableList">
 
                                 <tr>
                                     <td>1</td>
@@ -539,7 +539,10 @@
                                     <td>(G+8 STORIED), SHIVAJI NAGAR, MALAD (WEST)</td>
                                 </tr>
                             </tbody>
+
                         </table>
+
+                        <button class="tableExpand btnTheme py-2 w-25 mt-4"><span>Show More</span></button>
 
                     </div>
 
@@ -552,7 +555,7 @@
                                     <th>Location</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody class="tableList2">
                                 <tr>
                                     <td>1</td>
                                     <td>YASH SHRINE CHS</td>
@@ -629,7 +632,9 @@
                                     <td>GHATKOPAR (EAST)</td>
                                 </tr>
                             </tbody>
+
                         </table>
+                        <button class="tableExpand2 btnTheme py-2 w-25 mt-4"><span>Show More</span></button>
                     </div>
                 </div>
 
