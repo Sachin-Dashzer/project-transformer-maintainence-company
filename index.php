@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-   <title>RS Enterprises</title>
+   <title>Rely Enterprises</title>
    <meta name="description" content="" />
    <?php include 'include/head-links.php'; ?>
    <meta property="og:url" content="<?php echo $page_url ?>">
@@ -23,17 +23,17 @@
 
       <div class="heroBanner">
          <div class="banner-container">
-            <div class="bannerContent">
+            <div class="bannerContent text-center">
 
                <h1 class="font-heading fontWeight700 ">Rely Enterprises </h1>
-               <h2 class="font-heading fontWeight600">
-                  is into <span class="text-primary">Transformer</span> Maintenance
+               <h2>
+                  GOVT. LICENSED ELECTRICAL CONTRACTOR <br> ENGINEERS AND CONTRACTORS
                </h2>
 
-               <div class="bannerBtn d-flex gap-4 mt-5">
-                  <button class="btnTheme w-50 py-2"><span>Explore More</span></button>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio est veritatis neque quidem omnis placeat porro dignissimos fuga ipsam minima!</p>
-               </div>
+               <!-- <div class="bannerBtn w-100 d-flex justify-content-center gap-4 mt-4">
+                  <button class="btnTheme py-2 px-3"><span>HT Transformer Maintenance</span></button>
+                  <button class="btnTheme2 py-2 px-3"><span>Electrical Contracting</span></button>
+               </div> -->
             </div>
             <div class="social-links">
 
@@ -50,7 +50,7 @@
 
       </div>
 
-
+<!-- 
       <div class="services">
          <div class="containerFull">
 
@@ -108,15 +108,15 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
 
 
-      <section class="pb-5">
+      <section class="pb-5 mt-4">
          <div class="containerFull">
             <div class="row">
                <div class="col-lg-7 pe-3">
                   <div class="py-3 aboutLeft stickyItem">
-                     <h3 class="font-heading heading text-primary">Who we are</h3>
+                     <h3 class="font-heading heading fontWeight700 text-primary">Who we are</h3>
                      <p class="small_heading mb-3 mt-3">We, Rely Enterprises, take this opportunity to introduce ourselves as one of the leading electrical contractor firms with experience in electrical works, project planning, estimation, and scheduling.
                      </p>
                      <p class="title mt-2">
@@ -131,75 +131,7 @@
                      <p class="title mt-2"> The company has good competence and capability in executing mass electrical projects.
 
                      </p>
-                     <div class="row g-4 pt-4">
-                        <div class="col-md-6">
-                           <ul class="mb-3">
-                              <li class="d-flex mb-3">
-                                 <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                       width="16" height="16"
-                                       fill="currentColor"
-                                       class="bi bi-check-circle-fill text-secondary opacity-75"
-                                       viewBox="0 0 16 16">
-                                       <path
-                                          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
-                                    </svg>
-                                 </span>
-                                 <span class="ms-2 title">Aenean eu leo quam
-                                    ornare curabitur blandit
-                                    tempus.</span>
-                              </li>
-                              <li class="d-flex">
-                                 <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                       width="16" height="16"
-                                       fill="currentColor"
-                                       class="bi bi-check-circle-fill text-secondary opacity-75"
-                                       viewBox="0 0 16 16">
-                                       <path
-                                          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
-                                    </svg>
-                                 </span>
-                                 <span class="ms-2 title">Lorem ipsum dolor sit
-                                    amet consectetur.</span>
-                              </li>
-                           </ul>
-                        </div>
-                        <div class="col-md-6">
-                           <ul class="list-unstyled mb-0">
-                              <li class="d-flex mb-3">
-                                 <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                       width="16" height="16"
-                                       fill="currentColor"
-                                       class="bi bi-check-circle-fill text-secondary opacity-75"
-                                       viewBox="0 0 16 16">
-                                       <path
-                                          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
-                                    </svg>
-                                 </span>
-                                 <span class="ms-2 title">Consectetur dolor
-                                    sit, amet sectetur
-                                    adipisicing.</span>
-                              </li>
-                              <li class="d-flex">
-                                 <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                       width="16" height="16"
-                                       fill="currentColor"
-                                       class="bi bi-check-circle-fill text-secondary opacity-75"
-                                       viewBox="0 0 16 16">
-                                       <path
-                                          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
-                                    </svg>
-                                 </span>
-                                 <span class="ms-2 title">Mollitia qui sit
-                                    velit, facere, quasi quisquam
-                                    unde.</span>
-                              </li>
-                           </ul>
-                        </div>
-                     </div>
+                    
                   </div>
                </div>
                <div class="col-lg-5">
@@ -230,34 +162,16 @@
          <div class="row">
 
             <div class="col-md-6 left-section">
-               <h6>SUSTAINABILITY</h6>
-               <h2 class="mt-2 font-heading">Committed to keep people healthy & safe</h2>
+               <!-- <h6>SUSTAINABILITY</h6> -->
+               <h2 class="font-heading">HT Transformer Maintenance</h2>
                <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum?</p>
-               <a href="#" class="btn btn-custom">Work with us</a>
+               <a href="#" class="btnTheme py-2  w-30"><span>Explore More</span></a>
             </div>
 
             <div class="col-md-6 right-section">
-               <h2 class="font-heading">We are best in the field</h2>
-               <p class="title mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nobis sed fugiat iusto recusandae ipsum</p>
-
-               <div class="row pt-3 pe-5">
-                  <div class="icon-text col-6">
-                     <i class="fa-brands fa-pagelines"></i>
-                     <span>Sustainability</span>
-                  </div>
-                  <div class="icon-text col-6">
-                     <i class="bi bi-clock"></i>
-                     <span>Project on time</span>
-                  </div>
-                  <div class="icon-text col-6">
-                     <i class="bi bi-laptop"></i>
-                     <span>Modern Tech</span>
-                  </div>
-                  <div class="icon-text col-6">
-                     <i class="bi bi-card-text"></i>
-                     <span>Latest Design</span>
-                  </div>
-               </div>
+            <h2 class="font-heading">Electrical <br>Contracting</h2>
+               <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum?</p>
+               <a href="#" class="btnTheme2 newBtnTheme py-2 w-30"><span>Explore More</span></a>
             </div>
          </div>
       </div>
@@ -377,17 +291,17 @@
 
 
 
-               <div class="col-md-4 contact_bar">
+               <div class="col-md-4 contact_bar ">
 
-                  <div class="contact-img">
+                  <!-- <div class="contact-img">
                      <img src="images/about-2.jpg" alt="">
-                  </div>
+                  </div> -->
                   <div class="contact-details px-4">
-                     <h3 class="sub_heading font-heading mb-2">Rely Enterprises</h3>
+                     <h3 class="heading fontWeight700 text-center font-heading py-2 mb-2">Rely Enterprises</h3>
                      <ul>
                         <li>
-                           <div class="contact-smallbox d-flex align-items-lg-start gap-3">
-                              <div class="iconbox small_heading"><i class="fa-solid fa-location-dot"></i></div>
+                           <div class="contact-smallbox text-center ">
+                              <div class="iconbox mx-auto small_heading"><i class="fa-solid fa-location-dot"></i></div>
                               <div class="icon-detail">
                                  <h5 class="title fontWeight700">Address</h5>
                                  <p class="mt-2">Office No 14, Rajiv Gandhi MHADA Commercial Complex, Near Atharva College, Ekta Nagar, Kandivali (W), Mumbai - 67 </p>
@@ -395,8 +309,8 @@
                            </div>
                         </li>
                         <li>
-                           <div class="contact-smallbox d-flex align-items-lg-start gap-3">
-                              <div class="iconbox small_heading"><i class="fa-solid fa-phone"></i></div>
+                           <div class="contact-smallbox text-center ">
+                              <div class="iconbox mx-auto small_heading"><i class="fa-solid fa-phone"></i></div>
                               <div class="icon-detail">
                                  <h5 class="title fontWeight700">Mobile No.</h5>
                                  <p class="mt-2"><a href="#">96897 68282</a></p>
@@ -404,8 +318,8 @@
                            </div>
                         </li>
                         <li>
-                           <div class="contact-smallbox d-flex align-items-lg-start gap-3">
-                              <div class="iconbox small_heading"><i class="fa-solid fa-envelope"></i></div>
+                           <div class="contact-smallbox text-center ">
+                              <div class="iconbox mx-auto small_heading"><i class="fa-solid fa-envelope"></i></div>
                               <div class="icon-detail">
                                  <h5 class="title fontWeight700">Email</h5>
                                  <p class="mt-2"><a href="#">relyenterprises@rediffmail.com</a><br>
@@ -444,12 +358,9 @@
                               <div class="mb-3 col-12 form-input">
                                  <textarea class="form-control">Write a massage...</textarea>
                               </div>
-                              <div class="form-check col-10 offset-1 px-2 form-checkbox">
-                                 <input type="checkbox" class="form-check-input" id="termsCheck">
-                                 <label class="form-check-label" for="termsCheck">I agree with all conditions</label>
-                              </div>
+                             
                               <div class="form-submit col-12 px-2 ">
-                                 <button type="submit" class="btnTheme py-1 w-100"><span>Submit</span></button>
+                                 <button type="submit" class="btnTheme py-2 w-100"><span>Submit</span></button>
                               </div>
                            </div>
                         </form>

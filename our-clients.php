@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Our Clientele || RS Enterprises</title>
+    <title>Our Clientele || Rely Enterprises</title>
     <meta name="description" content="" />
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">

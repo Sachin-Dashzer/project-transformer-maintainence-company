@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>About || RS Enterprises</title>
+    <title>About || Rely Enterprises</title>
     <meta name="description" content="" />
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
@@ -51,7 +51,7 @@
                             <p class="title mt-2"> The company has good competence and capability in executing mass electrical projects.
 
                             </p>
-                            <div class="row g-4 mt-1">
+                            <!-- <div class="row g-4 mt-1">
                                 <div class="col-md-6">
                                     <ul>
                                         <li class="d-flex mb-3">
@@ -119,7 +119,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-lg-5">

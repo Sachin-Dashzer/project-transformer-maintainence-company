@@ -5,19 +5,34 @@
 		<div class="mainMenu h-100 d-flex justify-content-between align-items-center">
 
 			<div class="leftLogo">
-				<h1 class="sub_heading text-primary font-heading">RS Enterprises</h1>
+				<a href="index.php">
+					<img class="logo2" src="images/logo.png" />
+					<img class="logo1" src="images/logo-2.png" />
+				</a>
 			</div>
 			<div class="rightMenu">
 				<ul class="headerMenu d-flex justify-content-end align-bottom">
-					<li><a href="index.php">Home</a></li>
-					<li><a href="about.php">About us</a></li>
-					<li><a href="ht-transformer-maintenance.php">HT Transformer Maintenance</a></li>
-					<li><a href="electrical-contracting.php">Electrical Contracting</a></li>
-					<li><a href="our-clients.php">Our Clientele</a></li>
-					<li><a href="contact.php">Contact us</a></li>
+					<li class="<?php if ($page == 'home') {
+									echo 'active';
+								} ?>"><a href="index.php">Home</a></li>
+					<li class="<?php if ($page == 'about') {
+									echo 'active';
+								} ?>"><a href="about.php">About us</a></li>
+					<li class="<?php if ($page == '') {
+									echo 'active';
+								} ?>"><a href="ht-transformer-maintenance.php">HT Transformer Maintenance</a></li>
+					<li class="<?php if ($page == '') {
+									echo 'active';
+								} ?>"><a href="electrical-contracting.php">Electrical Contracting</a></li>
+					<li class="<?php if ($page == 'clients') {
+									echo 'active';
+								} ?>"><a href="our-clients.php">Our Clientele</a></li>
+					<li class="<?php if ($page == 'contact') {
+									echo 'active';
+								} ?>"><a href="contact.php">Contact us</a></li>
 				</ul>
 			</div>
-			
+
 
 		</div>
 	</div>

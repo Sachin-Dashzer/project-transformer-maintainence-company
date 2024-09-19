@@ -1,14 +1,27 @@
 <footer class="pt-md-5 pt-3">
    <div class="containerFull">
-      <div class="row">
+      <div class="row pb-4">
 
-         <div class="col-md-5 pt-3">
-            <h5 class="heading font-heading text-primary">RS Enterprises</h5>
-            <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur dolorem ratione quis ducimus ullam. In accusantium et cumque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur dolorem ratione quis ducimus ullam. In accusantium et cumque</p>
+         <div class="col-md-5">
+            <div class="footerLogo">
+                <img src="images/logo-2.png" />
+            </div>
+            <!-- <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur dolorem ratione quis ducimus ullam. In accusantium et cumque</p> -->
 
          </div>
 
-         <div class="col-md-3"></div>
+         <div class="col-md-3 footer-links ">
+         <h5 class="footer-heading">Quick Links</h5>
+
+         <ul class="list-unstyled">
+               <li class="mt-1"><a href="index.php">Home</a></li>
+               <li class="mt-1"><a href="about.php">About us</a></li>
+               <li class="mt-1"><a href="#">HT Transformer Maintenance</a></li>
+               <li class="mt-1"><a href="#">Electrical Contracting</a></li>
+               <li class="mt-1"><a href="our-clients.php">Our Clientele</a></li>
+               <li class="mt-1"><a href="contact.php">Contact us</a></li>
+            </ul>
+         </div>
 
 
 
@@ -24,7 +37,7 @@
       </div>
 
 
-      <div class="row align-items-baseline mt-4">
+      <!-- <div class="row align-items-baseline mt-4">
          <div class="col-lg-8 footer-links">
 
             <ul class="list-unstyled d-flex gap-4">
@@ -44,7 +57,7 @@
          </div>
 
 
-      </div>
+      </div> -->
    </div>
    <hr class="mt-2">
    <div class="">
