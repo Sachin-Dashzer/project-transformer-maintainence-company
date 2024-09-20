@@ -36,7 +36,7 @@
                 <div class="row ">
                     <div class="col-lg-7 pe-4">
                         <div class="py-2 aboutLeft">
-                            <h3 class="font-heading heading text-primary">Who we are</h3>
+                            <h3 class="font-heading fontWeight700 text-primary text-uppercase heading ">Who we are</h3>
                             <p class="small_heading mb-3 mt-3">We, Rely Enterprises, take this opportunity to introduce ourselves as one of the leading electrical contractor firms with experience in electrical works, project planning, estimation, and scheduling.
                             </p>
                             <p class="title mt-2">
@@ -152,7 +152,7 @@
                 <div class="newprojectBox d-flex justify-content-between align-items-end " id="residential">
                     <div class="box-1 pb-2">
                         <h4 class="text fontWeight600 text_primary lineBorder">Our Projects</h4>
-                        <h3 class="heading fontHeading fontWeight600 mt-3">Residential Projects</h3>
+                        <h3 class="heading text-primary text-uppercase fontHeading fontWeight700 mt-3">Residential Projects</h3>
 
                     </div>
                     <div class="box-2">
@@ -646,7 +646,7 @@
 
                 <div class="newprojectBox" id="commercial">
 
-                    <h3 class="heading fontHeading fontWeight600 mt-5">Commercial Projects</h3>
+                    <h3 class="heading text-primary text-uppercase fontHeading fontWeight700 mt-5">Commercial Projects</h3>
                     <!-- <div class="projectTabHomes2">
                         <ul>
                             <li class="active2" data-tab="completed">Completed</li>

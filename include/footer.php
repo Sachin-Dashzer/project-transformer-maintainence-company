@@ -6,7 +6,9 @@
             <div class="footerLogo">
                 <img src="images/logo-2.png" />
             </div>
-            <!-- <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur dolorem ratione quis ducimus ullam. In accusantium et cumque</p> -->
+            <div class="footerlogo-details text-center">
+            <p class="mt-1">GOVT. LICENSED ELECTRICAL CONTRACTOR <br/>
+            ENGINEERS AND CONTRACTORS</p></div>
 
          </div>
 

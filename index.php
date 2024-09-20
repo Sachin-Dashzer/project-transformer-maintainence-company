@@ -25,7 +25,7 @@
          <div class="banner-container">
             <div class="bannerContent text-center">
 
-               <h1 class="font-heading fontWeight700 ">Rely Enterprises </h1>
+               <h1 class="font-heading text-primary text-uppercase fontWeight700 ">Rely Enterprises </h1>
                <h2>
                   GOVT. LICENSED ELECTRICAL CONTRACTOR <br> ENGINEERS AND CONTRACTORS
                </h2>
@@ -50,7 +50,7 @@
 
       </div>
 
-<!-- 
+      <!-- 
       <div class="services">
          <div class="containerFull">
 
@@ -116,7 +116,7 @@
             <div class="row">
                <div class="col-lg-7 pe-3">
                   <div class="py-3 aboutLeft stickyItem">
-                     <h3 class="font-heading heading fontWeight700 text-primary">Who we are</h3>
+                     <h3 class="font-heading heading fontWeight700 text-primary text-uppercase">Who we are</h3>
                      <p class="small_heading mb-3 mt-3">We, Rely Enterprises, take this opportunity to introduce ourselves as one of the leading electrical contractor firms with experience in electrical works, project planning, estimation, and scheduling.
                      </p>
                      <p class="title mt-2">
@@ -131,7 +131,7 @@
                      <p class="title mt-2"> The company has good competence and capability in executing mass electrical projects.
 
                      </p>
-                    
+
                   </div>
                </div>
                <div class="col-lg-5">
@@ -169,7 +169,7 @@
             </div>
 
             <div class="col-md-6 right-section">
-            <h2 class="font-heading">Electrical <br>Contracting</h2>
+               <h2 class="font-heading">Electrical Contracting</h2>
                <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum?</p>
                <a href="#" class="btnTheme2 newBtnTheme py-2 w-30"><span>Explore More</span></a>
             </div>
@@ -181,7 +181,7 @@
          <div class="containerFull">
 
 
-            <h2 class="large_heading fontWeight700 font-heading text-center">Some of our latest works.</h2>
+            <h2 class="large_heading fontWeight700 text-primary text-uppercase font-heading text-center">Projects</h2>
 
 
             <div class="project-container mt-5">
@@ -241,7 +241,7 @@
 
       <section>
          <div class="containerFull">
-            <h3 class="heading font-heading text-center text-decoration-underline">Our Testimonials</h3>
+            <h3 class="heading font-heading text-center text-primary text-uppercase fontWeight700">Our Testimonials</h3>
 
             <div class="testimonial-container mt-5">
                <div class="testimonial-slider">
@@ -296,12 +296,12 @@
                   <!-- <div class="contact-img">
                      <img src="images/about-2.jpg" alt="">
                   </div> -->
-                  <div class="contact-details px-4">
-                     <h3 class="heading fontWeight700 text-center font-heading py-2 mb-2">Rely Enterprises</h3>
+                  <div class="contact-details px-4 py-2">
+                     <h3 class="heading fontWeight700 text-primary text-uppercase  font-heading py-2 mb-2">Rely Enterprises</h3>
                      <ul>
                         <li>
-                           <div class="contact-smallbox text-center ">
-                              <div class="iconbox mx-auto small_heading"><i class="fa-solid fa-location-dot"></i></div>
+                           <div class="contact-smallbox d-flex align-items-top justify-content-start gap-3 ">
+                              <div class="iconbox small_heading"><i class="fa-solid fa-location-dot"></i></div>
                               <div class="icon-detail">
                                  <h5 class="title fontWeight700">Address</h5>
                                  <p class="mt-2">Office No 14, Rajiv Gandhi MHADA Commercial Complex, Near Atharva College, Ekta Nagar, Kandivali (W), Mumbai - 67 </p>
@@ -309,22 +309,39 @@
                            </div>
                         </li>
                         <li>
-                           <div class="contact-smallbox text-center ">
-                              <div class="iconbox mx-auto small_heading"><i class="fa-solid fa-phone"></i></div>
+                           <div class="contact-smallbox d-flex align-items-top justify-content-start gap-3 ">
+                              <div class="iconbox small_heading"><i class="fa-solid fa-phone"></i></div>
                               <div class="icon-detail">
                                  <h5 class="title fontWeight700">Mobile No.</h5>
-                                 <p class="mt-2"><a href="#">96897 68282</a></p>
+                                 <p class="mt-2"><a href="#">+91 81690 98726</a></p>
+                                 <p class="mt-1"><a href="#">+91 70455 61993</a></p>
                               </div>
                            </div>
                         </li>
                         <li>
-                           <div class="contact-smallbox text-center ">
-                              <div class="iconbox mx-auto small_heading"><i class="fa-solid fa-envelope"></i></div>
+                           <div class="contact-smallbox d-flex align-items-top justify-content-start gap-3 ">
+                              <div class="iconbox small_heading"><i class="fa-solid fa-envelope"></i></div>
                               <div class="icon-detail">
                                  <h5 class="title fontWeight700">Email</h5>
-                                 <p class="mt-2"><a href="#">relyenterprises@rediffmail.com</a><br>
+                                 <p class="mt-2"><a href="#">relyenterprises@rediffmail.com</a></p>
+                                 <p class="mt-1">
                                     <a href="#">relyenterprises21711@gmail.com</a>
                                  </p>
+                                 <p class="mt-1">
+
+                                    <a href="#">relaible36780@gmail.com</a>
+                                 </p>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="contact-smallbox">
+
+                              <div class="icon-detail d-flex">
+                                 <div class="social-icons-links"><i class="fa-brands fa-facebook-f"></i></div>
+                                 <div class="social-icons-links"><i class="fa-brands fa-instagram"></i></div>
+                                 <div class="social-icons-links"><i class="fa-brands fa-x-twitter"></i></div>
+                                 <div class="social-icons-links"><i class="fa-brands fa-linkedin-in"></i></div>
                               </div>
                            </div>
                         </li>
@@ -353,12 +370,18 @@
                                  <input type="text" class="form-control" placeholder="E-mail" required>
                               </div>
                               <div class="mb-3 col-6 form-input">
-                                 <input type="text" class="form-control" placeholder="Input" required>
+                                 
+    <select id="services" name="services" class="form-control">
+        <option value="option1"><span>Services</span></option>
+        <option value="option2">HT Transformer Maintenance</option>
+        <option value="option3">Electrical Contracting</option>
+        
+    </select>
                               </div>
                               <div class="mb-3 col-12 form-input">
                                  <textarea class="form-control">Write a massage...</textarea>
                               </div>
-                             
+
                               <div class="form-submit col-12 px-2 ">
                                  <button type="submit" class="btnTheme py-2 w-100"><span>Submit</span></button>
                               </div>
@@ -377,8 +400,8 @@
 
       <section>
          <div class="containerFull text-center">
-            <h2 class="large_heading font-heading fontweight700 my-4">Partners</h2>
-            <p class="mb-3 title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam assumenda animi, similique tempore <br> quaerat sequi, dolore quos inventore at ab ullam labore!</p>
+            <h2 class="large_heading font-heading text-primary text-uppercase fontWeight700 my-4">Partners</h2>
+            <!-- <p class="mb-3 title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam assumenda animi, similique tempore <br> quaerat sequi, dolore quos inventore at ab ullam labore!</p> -->
 
             <div class="row">
                <div class="col-lg-10 offset-1">

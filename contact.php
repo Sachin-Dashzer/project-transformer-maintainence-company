@@ -53,7 +53,8 @@
 
                                         <div class="icon-detail">
                                             <h5 class="title fontWeight700"><span><i class="fa-solid fa-phone"></i></span> &nbsp; Mobile No.</h5>
-                                            <p class="mt-2"><a href="#">96897 68282</a></p>
+                                            <p class="mt-2"><a href="#">+91 81690 98726</a></p>
+                                            <p class="mt-1"><a href="#">+91 70455 61993</a></p>
                                         </div>
                                     </div>
                                 </li>
@@ -62,8 +63,15 @@
 
                                         <div class="icon-detail">
                                             <h5 class="title fontWeight700"><span><i class="fa-solid fa-envelope"></i></span> &nbsp; Email</h5>
-                                            <p class="mt-2"><a href="#">relyenterprises@rediffmail.com</a><br>
+                                            <p class="mt-2">
+                                                <a href="#">relyenterprises@rediffmail.com</a>
+                                            </p>
+                                            <p class="mt-1">
                                                 <a href="#">relyenterprises21711@gmail.com</a>
+                                            </p>
+                                            <p class="mt-1">
+
+                                                <a href="#">relaible36780@gmail.com</a>
                                             </p>
                                         </div>
                                     </div>
@@ -98,7 +106,12 @@
                                         <input type="text" class="form-control" placeholder="E-mail" required>
                                     </div>
                                     <div class="mb-3 col-6 form-input">
-                                        <input type="text" class="form-control" placeholder="Input" required>
+                                        <select id="services" name="services" class="form-control">
+                                            <option value="option1"><span>Services</span></option>
+                                            <option value="option2">HT Transformer Maintenance</option>
+                                            <option value="option3">Electrical Contracting</option>
+                                            
+                                        </select>
                                     </div>
                                     <div class="mb-3 col-12 form-input">
                                         <textarea class="form-control">Write a massage...</textarea>
