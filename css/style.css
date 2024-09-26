@@ -77,7 +77,7 @@ p {
 }
 
 p {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 ul {
@@ -981,18 +981,18 @@ textarea {
   color: white;
 }
 
-.shortBanner {
+.shortBanner , .shortBanner-2 {
   height: 400px;
   padding-top: 50px;
   color: white;
 }
 
-.shortBanner .large_heading {
+.shortBanner .large_heading , .shortBanner-2 .large_heading {
   font-size: 50px;
 }
 
 .contact-form,
-.shortBanner {
+.shortBanner , .shortBanner-2 {
   background: rgb(77,3,3);
   background: linear-gradient(180deg, rgba(77,3,3,0.7418942577030813) 55%, rgba(77,3,3,0.4418942577030813) 100%) , url(../images/contact-bg.jpg);
   background-size: cover;
@@ -1000,6 +1000,38 @@ textarea {
   background-attachment: fixed;
 
   background-blend-mode: multiply;
+}
+.shortBanner-2{
+  width: 100%;
+  height: 480px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.shortBanner-2::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(77,3,3,0.7418942577030813) 55%, rgba(77,3,3,0.4418942577030813) 100%) , url(../images/bg-tower-new.jpeg);
+  /* background-size: cover; */
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.shortBanner-2 .heading{
+  margin-top: 40px;
+  font-size: 50px;
+  /* letter-spacing: 2px; */
+  line-height: 65px;
+
+
+}
+
+.shortBanner-2 ul li{
+  margin-top: 5px;
 }
 
 .form-control{
@@ -1354,4 +1386,68 @@ tbody tr:hover {
 
 .newBtnTheme:after{
   background-color: var(--secondary-color);
+}
+
+.newAboutImg {
+  width: 100%;
+  height: 430px;
+}
+.newAboutImg2 {
+  width: 100%;
+  height: 490px;
+}
+.newAboutImg img , .newAboutImg2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.newtitle{
+  font-size: 19px;
+}
+.serviceBox h4{
+  font-size: 22px;
+}
+.serviceBox ul li , .newlist li{
+  padding-left: 19px;
+  margin-top: 10px;
+  position: relative;
+  /* font-size: 17px; */
+}
+.newlist li{
+  margin-top: 0px;
+
+}
+.serviceBox ul li::before , .newlist li::before{
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: var(--primary-color);
+  position: absolute;
+  left: 2px;
+  top: 8px;
+  border-radius: 100%;
+}
+
+
+
+.newServices .serviceBox:hover{
+  transform: none;
+}
+
+.newdetails-Img{
+    width: 100%;
+    height: 470px;
+    transform: scaleX(0.95);
+}
+.newdetails-Img img , .choose-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.choose-img{
+
+  height: 500px;
 }

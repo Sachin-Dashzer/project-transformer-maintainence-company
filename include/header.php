@@ -18,10 +18,10 @@
 					<li class="<?php if ($page == 'about') {
 									echo 'active';
 								} ?>"><a href="about.php">About us</a></li>
-					<li class="<?php if ($page == '') {
+					<li class="<?php if ($page == 'trasnformer-maintanenece') {
 									echo 'active';
-								} ?>"><a href="ht-transformer-maintenance.php">HT Transformer Maintenance</a></li>
-					<li class="<?php if ($page == '') {
+								} ?>"><a href="trasnformer-maintanenece.php">HT Transformer Maintenance</a></li>
+					<li class="<?php if ($page == 'electrical-contracting') {
 									echo 'active';
 								} ?>"><a href="electrical-contracting.php">Electrical Contracting</a></li>
 					<li class="<?php if ($page == 'clients') {
