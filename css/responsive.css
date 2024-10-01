@@ -676,19 +676,43 @@ hr {
   line-height: 49px;
 }
 
+.newAboutImg {
+  width: 100%;
+  height: 345px;
+}
 
+.newtitle {
+  font-size: 17px;
+}
+.newdetails-Img {
+  width: 100%;
+  height: 368px;
+  transform: none;
+}
 
+.shortBanner-2 .heading {
+  
+  font-size: 27px;
+  /* letter-spacing: 2px; */
+  line-height: 32px;
+}
 
+.shortBanner-2 .small_heading{
+  font-size: 17px;
+}
 
+.newAboutImg2 {
+  width: 100%;
+  height: 363px;
+}
 
-
-
-
-
-
-
-
-
+.title {
+  font-size: 16px;
+}
+.newlist li {
+  font-size: 15px;
+  margin-top: 0px;
+}
 
 
 
