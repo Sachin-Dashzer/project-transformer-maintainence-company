@@ -183,7 +183,7 @@ $(".partner-slider").slick({
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 4,
         slidesToScroll: 5,
         infinite: true,
         dots: true,
@@ -192,14 +192,14 @@ $(".partner-slider").slick({
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
       },
     },
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
         dots: false,
         arrows: false,
@@ -225,48 +225,6 @@ $(".certificateSlider").slick({
       breakpoint: 1024,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true,
-      },
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: false,
-        arrows: false,
-      },
-    },
-  ],
-});
-
-$(".testimonialSlider").slick({
-  dots: true,
-  infinite: true,
-  speed: 500,
-  autoplay: true,
-  autoplaySpeed: 2000,
-  arrows: true,
-  prevArrow:
-    "<button type='button' class='slick-prev pull-left'><i class='bi bi-chevron-left'></i></button>",
-  nextArrow:
-    "<button type='button' class='slick-next pull-right'><i class='bi bi-chevron-right'></i></button>",
-  slidesToScroll: 1,
-  slidesToShow: 3,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
         dots: true,
@@ -350,7 +308,7 @@ $(".testimonial-slider").slick({
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
         dots: true,
@@ -359,14 +317,14 @@ $(".testimonial-slider").slick({
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
       },
     },
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         dots: false,
         arrows: false,

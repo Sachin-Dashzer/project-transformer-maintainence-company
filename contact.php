@@ -21,7 +21,7 @@
     <div class="wrapper">
         <?php include 'include/header.php'; ?>
 
-        <div class="shortBanner d-flex align-items-lg-center justify-content-center ">
+        <div class="shortBanner d-flex align-items-center justify-content-center ">
 
             <h2 class="large_heading fontWeight700 font-heading">Contact Us</h2>
         </div>
@@ -35,9 +35,9 @@
             <div class="newContact containerFull rounded-1">
 
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="contact-details px-4">
-                            <h3 class="heading fontWeight700 font-heading py-2 mb-2">Contact Us</h3>
+                    <div class="col-md-6">
+                        <div class="contact-details px-md-4">
+                            <h3 class="heading fontWeight700 font-heading py-2 mb-md-2">Contact Us</h3>
                             <ul>
                                 <li>
                                     <div class="contact-smallbox">
@@ -91,21 +91,21 @@
                         </div>
 
                     </div>
-                    <div class="col-lg-6">
-                        <div class="newContact-form-new rounded-3 pt-2 p-5">
-                            <h3 class="mt-5 font-heading heading text-center">Get a Quote</h3>
-                            <form class="mt-5">
+                    <div class="col-md-6 mt-4 mt-md-0">
+                        <div class="newContact-form-new rounded-3 pt-md-2 p-lg-5 pb-4 p-3">
+                            <h3 class="mt-2 mt-lg-5 mt-md-4 font-heading heading text-center">Get a Quote</h3>
+                            <form class="mt-lg-5 mt-md-4 mt-3">
                                 <div class="row">
-                                    <div class="mb-3 col-6 form-input">
+                                    <div class="mb-md-3 mb-2 col-lg-6 form-input">
                                         <input type="text" class="form-control" placeholder="Name" required>
                                     </div>
-                                    <div class="mb-3 col-6 form-input">
+                                    <div class="mb-md-3 mb-2 col-lg-6 form-input">
                                         <input type="text" class="form-control" placeholder="Phone No." required>
                                     </div>
-                                    <div class="mb-3 col-6 form-input">
+                                    <div class="mb-md-3 mb-2 col-lg-6 form-input">
                                         <input type="text" class="form-control" placeholder="E-mail" required>
                                     </div>
-                                    <div class="mb-3 col-6 form-input">
+                                    <div class="mb-md-3 mb-2 col-lg-6 form-input">
                                         <select id="services" name="services" class="form-control">
                                             <option value="option1"><span>Services</span></option>
                                             <option value="option2">HT Transformer Maintenance</option>
@@ -118,7 +118,7 @@
                                     </div>
 
                                     <div class="form-submit col-12 px-2 ">
-                                        <button type="submit" class="btnTheme py-1 w-100"><span>Submit</span></button>
+                                        <button type="submit" class="btnTheme py-1 py-md-2 w-100"><span>Submit</span></button>
                                     </div>
                                 </div>
                             </form>

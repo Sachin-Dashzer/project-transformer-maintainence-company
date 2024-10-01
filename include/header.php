@@ -10,7 +10,7 @@
 					<img class="logo1" src="images/logo-2.png" />
 				</a>
 			</div>
-			<div class="rightMenu">
+			<div class="rightMenu d-none d-lg-block">
 				<ul class="headerMenu d-flex justify-content-end align-bottom">
 					<li class="<?php if ($page == 'home') {
 									echo 'active';
@@ -32,7 +32,7 @@
 								} ?>"><a href="contact.php">Contact us</a></li>
 				</ul>
 			</div>
-
+			<button class="btnMenu d-block d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa fa-bars"></i></button>
 
 		</div>
 	</div>
@@ -40,59 +40,50 @@
 
 
 
-<!-- 
+
+
+
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
 	<div class="offcanvas-header">
-		<div class="leftLogo">
-			<a href="#">
-				<picture>
-					<source srcset="images/logo-1.webp" type="image/webp" />
-					<img src="images/logo-1.png" alt="scaora" />
-				</picture>
+		<div class="sidelogo">
+			<a href="index.php">
+			<img src="images/logo-2.png" />
 			</a>
 		</div>
-		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-
+		<h5 id="offcanvasRightLabel">&nbsp;</h5>
+		<button type="button" class="btn-close ps-4 text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 	</div>
 	<div class="offcanvas-body">
-		<div class="sideInnerMenu mt-3">
+		<div class="innerMenu">
 			<ul>
-
-				<li><a href="index.php">Home </a></li>
-				<li class="newNavDrop"><a href="about-us.php">About us </a><i class="fa-solid fa-angle-down"></i>
-					<div class="newNavBox">
-						<ul>
-							<li><a href="history.php">History</a></li>
-							<li><a href="contribution.php">Contribution during covid</a></li>
-						</ul>
-					</div>
-				</li>
-
-				<li class="newNavDrop"><a href="#">Member Resources </a><i class="fa-solid fa-angle-down"></i>
-					<div class="newNavBox">
-						<ul>
-							<li><a href="membership-process.php">Membership process</a></li>
-							<li><a href="form.php">Memberships form</a></li>
-						</ul>
-					</div>
-				</li>
-				<li><a href="updates.php">Updates / initiatives</a></li>
-				<li><a href="directory.php">SCAORA Directory</a></li>
-				<li><a href="e-journal.php">SCAORA E-journal</a></li>
-				
-				
-
-			</ul>
-
-
-		</div>
-
-		<div class="sideIconBox">
-			<ul>
-				<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-				<li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-				<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+				<li class="<?php if ($page == 'home') {
+								echo 'active';
+							} ?>"><a href="index.php">Home</a></li>
+				<li class="<?php if ($page == 'about') {
+								echo 'active';
+							} ?>"><a href="about.php">About us</a></li>
+				<li class="<?php if ($page == 'trasnformer-maintanenece') {
+								echo 'active';
+							} ?>"><a href="trasnformer-maintanenece.php">HT Transformer Maintenance</a></li>
+				<li class="<?php if ($page == 'electrical-contracting') {
+								echo 'active';
+							} ?>"><a href="electrical-contracting.php">Electrical Contracting</a></li>
+				<li class="<?php if ($page == 'clients') {
+								echo 'active';
+							} ?>"><a href="our-clients.php">Our Clientele</a></li>
+				<li class="<?php if ($page == 'contact') {
+								echo 'active';
+							} ?>"><a href="contact.php">Contact us</a></li>
 			</ul>
 		</div>
 	</div>
-</div> -->
+	<div class="followUs">
+		<h3 class="text fontWeight500">Follow Us</h3>
+		<ul class="socialLink">
+			<li><a class="px-2" href="#"><i class="fab fa-facebook-f"></i></a></li>
+			<li><a class="px-2" href="#"><i class="fab fa-x-twitter"></i></a></li>
+			<li><a class="px-2" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+			<li><a class="px-2" href="#"><i class="fab fa-instagram"></i></a></li>
+		</ul>
+	</div>
+</div>

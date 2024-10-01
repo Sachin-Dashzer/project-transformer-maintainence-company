@@ -858,7 +858,7 @@ textarea {
 .projectTabHomes2 ul li.active {
   font-weight: 700;
   background: var(--primary-color);
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .contentHome {

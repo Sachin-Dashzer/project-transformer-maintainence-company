@@ -21,7 +21,7 @@
     <div class="wrapper">
         <?php include 'include/header.php'; ?>
 
-        <div class="shortBanner d-flex align-items-lg-center justify-content-center ">
+        <div class="shortBanner d-flex align-items-center justify-content-center ">
 
             <h2 class="large_heading fontWeight700 font-heading">Our Clientele</h2>
         </div>
@@ -29,20 +29,20 @@
 
 
         <section class="newClients">
-            <div class="containerFull pe-0">
+            <div class="containerFull pe-md-0">
 
 
                 <div class="row">
-                    <div class="col-lg-5"></div>
+                    <div class="col-lg-5 col-md-4"></div>
 
 
-                    <div class="col-lg-7">
-                        <h2 class="sub_heading font-heading fontWeight700 text-center">Associated Builders and Developers</h2>
-                        <div class="row mt-2">
+                    <div class="col-lg-7 col-md-8">
+                        <h2 class="sub_heading font-heading fontWeight700 text-md-center">Associated Builders and Developers</h2>
+                        <div class="row mt-md-2 mt-1">
 
 
 
-                            <div class="col-lg-10 offset-lg-1 ps-5">
+                            <div class="col-lg-10 offset-lg-1 ps-md-5">
                                 <ul>
                                     <li><span><i class="fa-solid fa-arrow-right"></i></span><span>YASH GROUP OF COMPANIES, MALAD (W)</span></li>
                                     <li><span><i class="fa-solid fa-arrow-right"></i></span><span>PRATHAMESH BUILDCON PVT. LTD., ANDHERI (W)</span></li>
@@ -78,17 +78,17 @@
                 </div>
 
 
-                <div class="row mt-5">
-                    <div class="col-lg-5"></div>
+                <div class="row mt-md-5 mt-4">
+                    <div class="col-lg-5 col-md-4"></div>
 
 
-                    <div class="col-lg-7">
-                        <h2 class="sub_heading font-heading fontWeight700 text-center">Associated Architects & Planners:</h2>
-                        <div class="row mt-2">
+                    <div class="col-lg-7 col-md-8">
+                        <h2 class="sub_heading font-heading fontWeight700 text-md-center">Associated Architects & Planners:</h2>
+                        <div class="row mt-md-2 mt-1">
 
 
 
-                            <div class="col-lg-10 offset-lg-1 ps-5">
+                            <div class="col-lg-10 offset-lg-1 ps-md-5">
                                 <ul>
                                     <li><span><i class="fa-solid fa-arrow-right"></i></span><span>ELLORA PROJECT CONSULTANTS PVT. LTD.</span></li>
                                     <li><span><i class="fa-solid fa-arrow-right"></i></span><span>AR. SONAL AREKAR & ASSOCIATES</span></li>

@@ -21,7 +21,7 @@
     <div class="wrapper">
         <?php include 'include/header.php'; ?>
 
-        <div class="shortBanner d-flex align-items-lg-center justify-content-center ">
+        <div class="shortBanner d-flex align-items-center justify-content-center ">
 
             <h2 class="large_heading fontWeight700 font-heading">About Us</h2>
         </div>
@@ -34,10 +34,10 @@
         <section class=" bgLight">
             <div class="containerFull">
                 <div class="row ">
-                    <div class="col-lg-7 pe-4">
+                    <div class="col-lg-7 pe-lg-4">
                         <div class="py-2 aboutLeft">
                             <h3 class="font-heading fontWeight700 text-primary text-uppercase heading ">Who we are</h3>
-                            <p class="small_heading mb-3 mt-3">We, Rely Enterprises, take this opportunity to introduce ourselves as one of the leading electrical contractor firms with experience in electrical works, project planning, estimation, and scheduling.
+                            <p class="small_heading my-lg-3 my-2">We, Rely Enterprises, take this opportunity to introduce ourselves as one of the leading electrical contractor firms with experience in electrical works, project planning, estimation, and scheduling.
                             </p>
                             <p class="title mt-2">
                                 The company, Rely Electricals, was established in 1992. This was the first enterprising effort of the company, and now the enterprise has been renamed as Rely Enterprises.</p>
@@ -51,81 +51,13 @@
                             <p class="title mt-2"> The company has good competence and capability in executing mass electrical projects.
 
                             </p>
-                            <!-- <div class="row g-4 mt-1">
-                                <div class="col-md-6">
-                                    <ul>
-                                        <li class="d-flex mb-3">
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg"
-                                                    width="16" height="16"
-                                                    fill="currentColor"
-                                                    class="bi bi-check-circle-fill text-secondary opacity-75"
-                                                    viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
-                                                </svg>
-                                            </span>
-                                            <span class="ms-2 title">Aenean eu leo quam
-                                                ornare curabitur blandit
-                                                tempus.</span>
-                                        </li>
-                                        <li class="d-flex">
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg"
-                                                    width="16" height="16"
-                                                    fill="currentColor"
-                                                    class="bi bi-check-circle-fill text-secondary opacity-75"
-                                                    viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
-                                                </svg>
-                                            </span>
-                                            <span class="ms-2 title">Lorem ipsum dolor sit
-                                                amet consectetur.</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="list-unstyled mb-0">
-                                        <li class="d-flex mb-3">
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg"
-                                                    width="16" height="16"
-                                                    fill="currentColor"
-                                                    class="bi bi-check-circle-fill text-secondary opacity-75"
-                                                    viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
-                                                </svg>
-                                            </span>
-                                            <span class="ms-2 title">Consectetur dolor
-                                                sit, amet sectetur
-                                                adipisicing.</span>
-                                        </li>
-                                        <li class="d-flex">
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg"
-                                                    width="16" height="16"
-                                                    fill="currentColor"
-                                                    class="bi bi-check-circle-fill text-secondary opacity-75"
-                                                    viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
-                                                </svg>
-                                            </span>
-                                            <span class="ms-2 title">Mollitia qui sit
-                                                velit, facere, quasi quisquam
-                                                unde.</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div> -->
+                         
                         </div>
                     </div>
                     <div class="col-lg-5">
                         <div class="aboutRight stickyItem">
                             <div class="row">
-                                <div class="col-lg-6 short-about-img">
+                                <div class="col-md-6 short-about-img">
                                     <a href="#!">
                                         <div class="rounded-3 about-image"><img src="images/about-1.jpg" alt=""></div>
                                     </a>
@@ -133,7 +65,7 @@
                                         <div class="rounded-3 about-image"><img src="images/about-2.jpg" alt=""></div>
                                     </a>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-md-6">
                                     <a href="#!">
                                         <div class="rounded-3 about-image"><img src="images/about-3.jpg" alt=""></div>
                                     </a>
@@ -149,7 +81,7 @@
 
         <section>
             <div class="containerFull">
-                <div class="newprojectBox d-flex justify-content-between align-items-end " id="residential">
+                <div class="newprojectBox d-md-flex justify-content-between align-items-end " id="residential">
                     <div class="box-1 pb-2">
                         <h4 class="text fontWeight600 text_primary lineBorder">Our Projects</h4>
                         <h3 class="heading text-primary text-uppercase fontHeading fontWeight700 mt-3">Residential Projects</h3>
@@ -542,7 +474,7 @@
 
                         </table>
 
-                        <button class="tableExpand btnTheme py-2 w-25 mt-4"><span>Show More</span></button>
+                        <button class="tableExpand btnTheme py-2 px-3 mt-4"><span>Show More</span></button>
 
                     </div>
 

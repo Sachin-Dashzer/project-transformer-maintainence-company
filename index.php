@@ -111,13 +111,13 @@
       </div> -->
 
 
-      <section class="pb-5 mt-4">
+      <section class="pb-lg-5 mt-lg-4">
          <div class="containerFull">
             <div class="row">
-               <div class="col-lg-7 pe-3">
+               <div class="col-lg-7  pe-3">
                   <div class="py-3 aboutLeft stickyItem">
                      <h3 class="font-heading heading fontWeight700 text-primary text-uppercase">Who we are</h3>
-                     <p class="small_heading mb-3 mt-3">We, Rely Enterprises, take this opportunity to introduce ourselves as one of the leading electrical contractor firms with experience in electrical works, project planning, estimation, and scheduling.
+                     <p class="small_heading mb-3 mt-2 mt-lg-3">We, Rely Enterprises, take this opportunity to introduce ourselves as one of the leading electrical contractor firms with experience in electrical works, project planning, estimation, and scheduling.
                      </p>
                      <p class="title mt-2">
                         The company, Rely Electricals, was established in 1992. This was the first enterprising effort of the company, and now the enterprise has been renamed as Rely Enterprises.</p>
@@ -137,7 +137,7 @@
                <div class="col-lg-5">
                   <div class="aboutRight stickyItem">
                      <div class="row">
-                        <div class="col-lg-6 short-about-img">
+                        <div class="col-md-6 short-about-img">
                            <a href="#!">
                               <div class="rounded-3 about-image"><img src="images/about-1.jpg" alt=""></div>
                            </a>
@@ -145,7 +145,7 @@
                               <div class="rounded-3 about-image"><img src="images/about-2.jpg" alt=""></div>
                            </a>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-md-6">
                            <a href="#!">
                               <div class="rounded-3 about-image"><img src="images/about-3.jpg" alt=""></div>
                            </a>
@@ -165,13 +165,13 @@
                <!-- <h6>SUSTAINABILITY</h6> -->
                <h2 class="font-heading">HT Transformer Maintenance</h2>
                <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum?</p>
-               <a href="#" class="btnTheme py-2  w-30"><span>Explore More</span></a>
+               <a href="#" class="btnTheme py-2 px-3"><span>Explore More</span></a>
             </div>
 
             <div class="col-md-6 right-section">
                <h2 class="font-heading">Electrical Contracting</h2>
                <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, harum?</p>
-               <a href="#" class="btnTheme2 newBtnTheme py-2 w-30"><span>Explore More</span></a>
+               <a href="#" class="btnTheme2 newBtnTheme py-2 px-3"><span>Explore More</span></a>
             </div>
          </div>
       </div>
@@ -184,34 +184,34 @@
             <h2 class="large_heading fontWeight700 text-primary text-uppercase font-heading text-center">Projects</h2>
 
 
-            <div class="project-container mt-5">
+            <div class="project-container mt-lg-5 mt-3">
                <div class="row">
-                  <div class="col-lg-6 px-0">
+                  <div class="col-md-6 px-lg-0">
                      <div class="project_img rounded-3 bg-dark">
                         <img src="images/project-1.jpg" alt="">
                      </div>
                   </div>
-                  <div class="col-lg-6 px-0">
+                  <div class="col-md-6 px-lg-0">
                      <div class="project-content text-center">
                         <h3 class="heading">Residentials Projects </h3>
                         <!-- <h4 class="title mt-3">Veera Desai Road, Andheri (West)</h4> -->
-                        <p class="mt-3 title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat facere numquam neque ipsa laboriosam corporis iste consequatur, non at dolores consectetur, dolorum eaque nesciunt adipisci.</p>
-                        <a href="about.php#residential" class="py-2 px-4 mt-4 btnTheme"><span>View More</span></a>
+                        <p class="mt-lg-3 mt-2 title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat facere numquam neque ipsa laboriosam corporis iste consequatur, non at dolores consectetur, dolorum eaque nesciunt adipisci.</p>
+                        <a href="about.php#residential" class="py-2 px-4 mt-lg-4 mt-3 btnTheme"><span>View More</span></a>
                      </div>
                   </div>
                </div>
             </div>
-            <div class="project-container ">
+            <div class="project-container py-5 py-lg-0">
                <div class="row">
-                  <div class="col-lg-6 px-0">
+                  <div class="col-md-6 order-2 order-md-1 px-lg-0">
                      <div class="project-content text-center">
                         <h3 class="heading">Commercials Projects</h3>
                         <!-- <h4 class="title mt-3">BANGUR NAGAR, GOREGAON (W).</h4> -->
-                        <p class="mt-3 title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat facere numquam neque ipsa laboriosam corporis iste consequatur, non at dolores consectetur, dolorum eaque nesciunt adipisci.</p>
-                        <a href="about.php#commercial" class="py-2 px-4 mt-4 btnTheme"><span>View More</span></a>
+                        <p class=" mt-lg-3 mt-2 title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat facere numquam neque ipsa laboriosam corporis iste consequatur, non at dolores consectetur, dolorum eaque nesciunt adipisci.</p>
+                        <a href="about.php#commercial" class="py-2 px-4  mt-lg-4 mt-3 btnTheme"><span>View More</span></a>
                      </div>
                   </div>
-                  <div class="col-lg-6 px-0">
+                  <div class="col-md-6 order-1 order-md-2 px-lg-0">
                      <div class="project_img rounded-3 bg-dark">
                         <img src="images/project-2.jpg" alt="">
                      </div>
@@ -224,15 +224,17 @@
 
 
       <div class="callus-box">
-         <div class="containerFull row py-5 align-items-center">
-            <div class="col-xl-5 col-md-7">
-               <h2>Schedule a Free Consultation</h2>
-               <p class="mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, voluptatum. Vitae dolor cum ad explicabo. Aliquam, quo.</p>
-            </div>
-            <div class="offset-xl-2 col-xl-5 col-md-5">
-               <div class="text-lg-center">
-                  <p class="mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                  <a href="#" class="btnTheme py-2 mt-4 mx-auto"><span>Get a Quote</span></a>
+         <div class="containerFull overflow-hidden">
+            <div class="row py-4  py-lg-5 align-items-center">
+               <div class="col-xl-5 col-md-7">
+                  <h2>Schedule a Free Consultation</h2>
+                  <p class="mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, voluptatum. Vitae dolor cum ad explicabo. Aliquam, quo.</p>
+               </div>
+               <div class="offset-xl-2 col-xl-5 col-md-5">
+                  <div class="text-lg-center">
+                     <p class="mt-2 mt-md-0 mt-lg-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                     <a href="#" class="btnTheme py-2 mt-lg-4 mt-3 mx-auto"><span>Get a Quote</span></a>
+                  </div>
                </div>
             </div>
          </div>
@@ -243,9 +245,9 @@
          <div class="containerFull">
             <h3 class="heading font-heading text-center text-primary text-uppercase fontWeight700">Our Testimonials</h3>
 
-            <div class="testimonial-container mt-5">
+            <div class="testimonial-container mt-3 mt-md-5 mb-4 mb-lg-0">
                <div class="testimonial-slider">
-                  <div class="testimonial-box text-center p-5">
+                  <div class="testimonial-box text-center p-3 p-lg-5">
                      <div class="textimonial-img">
                         <img src="images/dummy.jpg" alt="">
                      </div>
@@ -253,7 +255,7 @@
                      <p class="mt-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aut quidem architecto nostrum consectetur libero incidunt, est corrupti atque eius.</p>
                   </div>
 
-                  <div class="testimonial-box text-center p-5">
+                  <div class="testimonial-box text-center p-3 p-lg-5">
                      <div class="textimonial-img">
                         <img src="images/dummy.jpg" alt="">
                      </div>
@@ -261,7 +263,7 @@
                      <p class="mt-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aut quidem architecto nostrum consectetur libero incidunt, est corrupti atque eius.</p>
                   </div>
 
-                  <div class="testimonial-box text-center p-5">
+                  <div class="testimonial-box text-center p-3 p-lg-5">
                      <div class="textimonial-img">
                         <img src="images/dummy.jpg" alt="">
                      </div>
@@ -269,7 +271,7 @@
                      <p class="mt-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aut quidem architecto nostrum consectetur libero incidunt, est corrupti atque eius.</p>
                   </div>
 
-                  <div class="testimonial-box text-center p-5">
+                  <div class="testimonial-box text-center p-3 p-lg-5">
                      <div class="textimonial-img">
                         <img src="images/dummy.jpg" alt="">
                      </div>
@@ -291,7 +293,7 @@
 
 
 
-               <div class="col-md-4 contact_bar ">
+               <div class="col-lg-4 col-md-6 contact_bar ">
 
                   <!-- <div class="contact-img">
                      <img src="images/about-2.jpg" alt="">
@@ -353,30 +355,30 @@
 
 
 
-               <div class="col-md-6 contact-section offset-lg-1">
+               <div class="col-lg-6 col-md-6 contact-section offset-lg-1">
                   <div class="w-100 h-100 d-flex justify-content-center align-items-center">
                      <div class="form-container">
                         <h3 class="form-heading mb-2 heading text-center">Get a Quote</h3>
                         <p class="title text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo pariatur earum dignissimos harum.</p>
                         <form class="mt-4">
                            <div class="row">
-                              <div class="mb-3 col-6 form-input">
+                              <div class="mb-lg-3 mb-2 col-lg-6 form-input">
                                  <input type="text" class="form-control" placeholder="Name" required>
                               </div>
-                              <div class="mb-3 col-6 form-input">
+                              <div class="mb-lg-3 mb-2 col-lg-6 form-input">
                                  <input type="text" class="form-control" placeholder="Phone No." required>
                               </div>
-                              <div class="mb-3 col-6 form-input">
+                              <div class="mb-lg-3 mb-2 col-lg-6 form-input">
                                  <input type="text" class="form-control" placeholder="E-mail" required>
                               </div>
-                              <div class="mb-3 col-6 form-input">
-                                 
-    <select id="services" name="services" class="form-control">
-        <option value="option1"><span>Services</span></option>
-        <option value="option2">HT Transformer Maintenance</option>
-        <option value="option3">Electrical Contracting</option>
-        
-    </select>
+                              <div class="mb-lg-3 mb-2 col-lg-6 form-input">
+
+                                 <select id="services" name="services" class="form-control">
+                                    <option value="option1"><span>Services</span></option>
+                                    <option value="option2">HT Transformer Maintenance</option>
+                                    <option value="option3">Electrical Contracting</option>
+
+                                 </select>
                               </div>
                               <div class="mb-3 col-12 form-input">
                                  <textarea class="form-control">Write a massage...</textarea>
@@ -400,38 +402,38 @@
 
       <section>
          <div class="containerFull text-center">
-            <h2 class="large_heading font-heading text-primary text-uppercase fontWeight700 my-4">Partners</h2>
+            <h2 class="large_heading font-heading text-primary text-uppercase fontWeight700 my-lg-4 my-3">Partners</h2>
             <!-- <p class="mb-3 title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam assumenda animi, similique tempore <br> quaerat sequi, dolore quos inventore at ab ullam labore!</p> -->
 
             <div class="row">
-               <div class="col-lg-10 offset-1">
+               <div class="col-lg-10 offset-lg-1">
                   <div class="partner-slider">
-                     <div class="item-slider p-4">
+                     <div class="item-slider p-lg-4 py-2 px-3">
                         <div class="clientLogo">
                            <img src="images/google.png" alt="">
                         </div>
                      </div>
-                     <div class="item-slider p-4">
+                     <div class="item-slider p-lg-4 py-2 px-3">
                         <div class="clientLogo">
                            <img src="images/google.png" alt="">
                         </div>
                      </div>
-                     <div class="item-slider p-4">
+                     <div class="item-slider p-lg-4 py-2 px-3">
                         <div class="clientLogo">
                            <img src="images/google.png" alt="">
                         </div>
                      </div>
-                     <div class="item-slider p-4">
+                     <div class="item-slider p-lg-4 py-2 px-3">
                         <div class="clientLogo">
                            <img src="images/google.png" alt="">
                         </div>
                      </div>
-                     <div class="item-slider p-4">
+                     <div class="item-slider p-lg-4 py-2 px-3">
                         <div class="clientLogo">
                            <img src="images/google.png" alt="">
                         </div>
                      </div>
-                     <div class="item-slider p-4">
+                     <div class="item-slider p-lg-4 py-2 px-3">
                         <div class="clientLogo">
                            <img src="images/google.png" alt="">
                         </div>

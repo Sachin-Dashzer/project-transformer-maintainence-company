@@ -21,11 +21,11 @@
     <div class="wrapper">
         <?php include 'include/header.php'; ?>
 
-        <div style="background: url('images/electrical-bg-2.png'); background-size: cover;" class="shortBanner-2 d-flex flex-column justify-content-center px-5 ">
+        <div style="background: url('images/electrical-bg-2.png'); background-size: cover;" class="shortBanner-2 d-md-flex flex-column justify-content-center ps-4 px-md-5 ">
 
-            <h2 class="fontWeight600 font-heading ps-3 pt-5"><span class="heading">ELECTRICAL SAFETY AUDIT FOR </span></h2>
+            <h2 class="fontWeight600 font-heading ps-md-3 pt-4 mt-5 mt-md-0 pt-md-5"><span class="heading">ELECTRICAL SAFETY AUDIT FOR </span></h2>
 
-            <ul class="small_heading ps-3 fontWeight700">
+            <ul class="small_heading ps-md-3 fontWeight700">
                 <li>CO-OPERATIVE HOUSING SOCIETIES,</li>
                 <li>INDIVIDUAL RESIDENTIAL FLATS,</li>
                 <li>COMMERCIAL SPACES AND INDUSTRIAL PREMISES</li>
@@ -37,18 +37,18 @@
 
 
         <section>
-            <div class="containerFull px-3">
+            <div class="containerFull px-md-3 ">
                 <div class="row">
 
                     <div class="col-lg-7">
 
 
-                        <div class="newAbout pt-4">
+                        <div class="newAbout pt-md-4">
 
                             <h5 class="small_heading fontWeight700 text-primary ps-1">Introduction to </h5>
                             <h3 class="heading fontWeight800 mt-2">ELECTRICAL SAFETY AUDIT</h3>
 
-                            <p class="mt-3 title">
+                            <p class="mt-md-3 mt-2 title">
                                 The electricity has become an integral part of the daily operations of the organizations but this electricity possesses threats
                                 to the organizations on day-to-day basis as well. To safeguard the organization from the threats & hazards pertaining to the
                                 Electricity an organization conducts the electrical safety audit, the main objective of the electrical safety audit is to evaluate
@@ -58,7 +58,7 @@
                                 electricity & compliance to the safety standards.
                             </p>
 
-                            <div class="mt-3 title">
+                            <div class="mt-md-3 mt-2 title">
                                 Our experienced Certified Electrical Safety Engineers (Govt. of Maharashtra) along with BEE Certified Energy Managers (Govt
                                 of India) follow a systematic approach for evaluating potential electrical hazards and prepare reports recommending actions
                                 for improvement. Our reports assess high risk situations and areas of non-compliance with legislation or best practice and
@@ -68,24 +68,24 @@
 
 
 
-                            <h6 class="newtitle fontWeight700 text-primary mt-4">WHAT IS ELECTRICAL SAFETY AUDIT?</h6>
+                            <h6 class="newtitle fontWeight700 text-primary mt-md-4 mt-3">WHAT IS ELECTRICAL SAFETY AUDIT?</h6>
                             <p class="title mt-2">It is physical inspection, testing of electrical installation to find out risk of electrical and fire hazard.</p>
 
-                            <h6 class="newtitle fontWeight700 text-primary mt-4">WHY ELECTRICAL SAFETY AUDIT?</h6>
+                            <h6 class="newtitle fontWeight700 text-primary mt-md-4 mt-3">WHY ELECTRICAL SAFETY AUDIT?</h6>
 
                             <ul class="newlist">
-                                <li class="mt-3 title">70 to 80 % Fires due to faulty electrics, says BMC
+                                <li class="mt-md-3 mt-2 title">70 to 80 % Fires due to faulty electrics, says BMC
                                     <a class="text-primary mt-1" href="https://indianexpress.com/article/cities/mumbai/mumbai-70-to-80-fires-due -to-faulty-electrics-says-bmc-5543949/">
                                         ( https://indianexpress.com/article/cities/mumbai/mumbai-70-to-80-fires-due -to-faulty-electrics-says-bmc-5543949/)</a>
                                 </li>
-                                <li class="mt-3 title">
+                                <li class="mt-md-3 mt-2 title">
                                     Short circuit has caused 80%of Mumbai Fires over past three years, says FIRE BRIGADE.
                                     <a class="text-primary mt-1" href="https://www.hindustantimes.com/mumbai-news/short-circuit-has-caused-80-of-mumbai-fires-over-past-three-yearssays-fire-brigade/story-VKbmOH1xzYLytukoEvzwnM.html">(https://www.hindustantimes.com/mumbai-news/short-circuit-has-caused-80-of-mumbai-fires-over-past-three-yearssays-fire-brigade/story-VKbmOH1xzYLytukoEvzwnM.html)</a>
                                 </li>
                             </ul>
 
 
-                            <h6 class="newtitle fontWeight700 text-primary mt-4">TYPES OF ELECTRICAL SAFETY AUDIT:</h6>
+                            <h6 class="newtitle fontWeight700 text-primary mt-md-4 mt-3">TYPES OF ELECTRICAL SAFETY AUDIT:</h6>
 
                             <div class="row">
                                 <div class="col-lg-6">
@@ -103,13 +103,13 @@
                             </div>
 
 
-                            <h6 class="newtitle fontWeight700 text-primary mt-4">IMPORTANCE OF ELECTRICAL SAFETY AUDIT:</h6>
+                            <h6 class="newtitle fontWeight700 text-primary mt-md-4 mt-3">IMPORTANCE OF ELECTRICAL SAFETY AUDIT:</h6>
 
                             <p class="mt-2">An electrical safety audit is an essential tool to ensure the safety of employees, contractors, and visitors in the workplace. The
                                 audit helps to identify potential electrical hazards such as exposed wires, overloaded circuits, and faulty equipment.</p>
 
 
-                            <h6 class="newtitle fontWeight700 text-primary mt-4">BENEFITS OF ELECTRICAL SAFETY AUDIT</h6>
+                            <h6 class="newtitle fontWeight700 text-primary mt-md-4 mt-3">BENEFITS OF ELECTRICAL SAFETY AUDIT</h6>
 
                             <ul class="newlist">
                                 <li class="mt-2">Identification of areas of risk in your electrical systems</li>
@@ -124,7 +124,7 @@
 
 
 
-                            <h6 class="newtitle fontWeight700 text-primary mt-4">METHODOLOGY</h6>
+                            <h6 class="newtitle fontWeight700 text-primary mt-md-4 mt-3">METHODOLOGY</h6>
                             <div class="row mt-2">
                                 <div class="col-lg-6">
                                     <ul class="newlist">
@@ -135,7 +135,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-lg-6">
-                                    <ul>
+                                    <ul class="newlist">
                                         <li class="mt-2">Discussion</li>
                                         <li class="mt-2">Document review</li>
                                         <li class="mt-2">Management Briefing</li>
@@ -150,7 +150,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-5 px-4">
+                    <div class="col-lg-5 px-md-4 mt-4 mt-md-0">
 
                         <div class="newAboutImg2 stickyItem">
                             <img src="images/about-1.jpg" alt="">
@@ -164,8 +164,8 @@
 
 
 
-        <section class="bgLight">
-            <div class="containerFull px-3">
+        <section class="bgLight d-none">
+            <div class="containerFull px-md-3">
                 <div class="row">
                     <div class="col-lg-12 mx-auto">
                         <h3 class="heading fontWeight700 text-primary"> SCOPE OF WORK - ELECTRICAL SAFETY AUDIT</h3>
